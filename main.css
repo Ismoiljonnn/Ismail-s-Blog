@@ -70,6 +70,11 @@
     margin-top: 20px;
 }
 
+.main-section-buttons a {
+    text-decoration: none;
+    display: inline-block;
+}
+
 .read-blog,
 .about-me {
     margin-right: 15px;
@@ -189,4 +194,5 @@
         text-align: center;
         margin-bottom: 15px;
     }
+
 }
