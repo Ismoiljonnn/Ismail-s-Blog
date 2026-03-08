@@ -196,3 +196,39 @@
     }
 
 }
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Asosiy blok - darrov ko'rinadi */
+.main-section {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Rasm biroz kechikib chiqadi */
+.main-section-head-photo {
+    animation: fadeInUp 0.8s ease-out 0.2s forwards;
+    opacity: 0; /* Animatsiya boshlanguncha ko'rinmay turadi */
+}
+
+/* Sarlavha va ma'lumotlar */
+.main-section-head-info {
+    animation: fadeInUp 0.8s ease-out 0.4s forwards;
+    opacity: 0;
+}
+
+/* Tugmalar eng oxirida chiqadi */
+.main-section-buttons {
+    animation: fadeInUp 0.8s ease-out 0.6s forwards;
+    opacity: 0;
+}
